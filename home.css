@@ -59,13 +59,10 @@
   align-items: flex-start;
 }
 .home-text {
-  top: 0px;
-  left: 0px;
   color: var(--dl-color-success-3001);
   position: absolute;
 }
 .home-text01 {
-  left: 0px;
   color: var(--dl-color-success-5001);
   bottom: -14px;
   position: absolute;
@@ -262,46 +259,54 @@
 }
 .home-publications {
   width: 100%;
-  height: 872px;
+  height: 1032px;
   display: flex;
   align-items: flex-start;
+  padding-top: 2em;
   padding-left: 2em;
   padding-right: 2em;
   flex-direction: column;
+  padding-bottom: 2em;
 }
 .home-text22 {
-  margin-top: var(--dl-space-space-fourunits);
-  margin-left: var(--dl-space-space-fiveunits);
-  margin-bottom: var(--dl-space-space-threeunits);
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
 }
 .home-ul {
-  width: 1439px;
-  margin-left: 3em;
-  margin-right: 3em;
+  width: 90%;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-left: 0px;
 }
 .home-li {
-  padding-left: 1em;
-  padding-right: 1em;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
   padding-bottom: 2em;
 }
 .home-li1 {
-  padding-left: 1em;
-  padding-right: 1em;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
   padding-bottom: 2em;
 }
 .home-li2 {
-  padding-left: 1em;
-  padding-right: 1em;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
   padding-bottom: 2em;
 }
 .home-li3 {
-  padding-left: 1em;
-  padding-right: 1em;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
   padding-bottom: 2em;
 }
 .home-li4 {
-  padding-left: 1em;
-  padding-right: 1em;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
   padding-bottom: 2em;
 }
 .home-other-interests {
@@ -314,9 +319,9 @@
   flex-direction: column;
 }
 .home-text28 {
-  margin-top: var(--dl-space-space-fourunits);
-  margin-left: var(--dl-space-space-fiveunits);
-  margin-bottom: var(--dl-space-space-twounits);
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
 }
 .home-container10 {
   flex: 0 0 auto;
@@ -437,10 +442,20 @@
   }
   .home-about-me {
     height: 286px;
-    padding-top: var(--dl-space-space-threeunits);
-    padding-left: var(--dl-space-space-fiveunits);
-    padding-right: var(--dl-space-space-fiveunits);
-    padding-bottom: var(--dl-space-space-halfunit);
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-left: 3em;
+    margin-bottom: 1em;
+    padding-right: 3em;
+    padding-bottom: 1em;
+  }
+  .home-social-bar {
+    margin: 0em;
+    padding: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
   }
   .home-twitter {
     margin-left: var(--dl-space-space-twounits);
@@ -465,6 +480,8 @@
   }
   .home-research-topics {
     height: 1142px;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
   .home-container03 {
     align-items: flex-start;
@@ -537,11 +554,16 @@
     height: 1054px;
     flex-direction: column;
   }
+  .home-text22 {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
   .home-ul {
     width: 1113px;
     margin-top: 2em;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0em;
+    margin-right: 0em;
     margin-bottom: 2em;
   }
   .home-li {
@@ -573,10 +595,15 @@
   .home-other-interests {
     height: 445px;
   }
+  .home-text28 {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
   .home-container10 {
-    margin-top: 2em;
+    margin-top: 1em;
     padding-left: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     padding-right: 1em;
     justify-content: center;
   }
@@ -678,10 +705,23 @@
     height: 161px;
   }
   .home-about-me {
-    height: 382px;
+    height: 271px;
+    margin-top: 1em;
+    padding-top: 0em;
+    padding-left: 3em;
+    margin-bottom: 1em;
+    padding-right: 3em;
+    padding-bottom: 0em;
   }
   .home-text02 {
     max-width: 100%;
+  }
+  .home-social-bar {
+    padding: 1em;
+    margin-top: 1em;
+    padding-left: 1em;
+    margin-bottom: 1em;
+    padding-right: 1em;
   }
   .home-twitter {
     padding-left: var(--dl-space-space-halfunit);
@@ -696,9 +736,17 @@
     padding-right: var(--dl-space-space-halfunit);
   }
   .home-research-topics {
-    height: 1730px;
+    height: 1671px;
+    padding-top: 2em;
+  }
+  .home-text10 {
+    width: 100%;
+    text-align: center;
+    padding-top: 0em;
+    padding-bottom: 0em;
   }
   .home-container03 {
+    height: 1549px;
     align-items: center;
     flex-direction: column;
   }
@@ -755,7 +803,9 @@
     height: 414px;
   }
   .home-text28 {
+    margin-top: 2em;
     margin-left: 1em;
+    margin-bottom: 1em;
   }
   .home-container10 {
     padding-left: 0em;
@@ -786,42 +836,47 @@
     left: var(--dl-space-space-threeunits);
   }
   .home-container02 {
-    top: -8px;
-    left: -17px;
+    top: 4em;
+    left: 1em;
+    bottom: 1em;
     position: absolute;
   }
   .home-text {
-    top: -5px;
-    left: 7px;
+    top: 0px;
+    left: 0px;
   }
   .home-text01 {
-    left: var(--dl-space-space-unit);
-    right: -10px;
+    left: 0px;
     width: 390px;
-    bottom: -11px;
+    bottom: 0px;
   }
   .home-image1 {
-    right: 92px;
-    width: 134px;
-    bottom: 61px;
-    height: 136px;
+    right: 2em;
+    width: 20%;
+    bottom: 1em;
+    height: auto;
   }
   .home-about-me {
+    height: 359px;
     margin-top: 1em;
-    padding-top: 1em;
+    padding-top: 0em;
     padding-left: 1em;
+    margin-bottom: 1em;
     padding-right: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
   }
   .home-text02 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
   .home-social-bar {
-    height: 268px;
+    height: 191px;
+    padding: 0em;
+    margin-top: 2em;
     align-items: center;
     padding-top: 2em;
     padding-left: 2em;
+    margin-bottom: 2em;
     padding-right: 2em;
     flex-direction: column;
     padding-bottom: 2em;
@@ -894,11 +949,11 @@
 }
 @media(max-width: 479px) {
   .home-top {
-    height: 362px;
+    height: 316px;
   }
   .home-container01 {
-    top: 160px;
-    left: 40px;
+    top: 5em;
+    left: 2em;
     bottom: 0px;
     position: absolute;
     align-self: flex-start;
@@ -907,27 +962,31 @@
     justify-content: center;
   }
   .home-container02 {
-    left: -6px;
-    bottom: -24px;
+    left: 0px;
+    width: 100%;
+    bottom: 0px;
   }
   .home-text {
-    top: -1px;
-    left: 9px;
+    top: 0px;
+    left: 0x;
   }
   .home-text01 {
-    right: -20px;
-    bottom: -9px;
+    bottom: 0px;
   }
   .home-image1 {
-    top: 46px;
-    left: 39px;
-    width: 102px;
-    height: 103px;
+    top: 2em;
+    left: 2em;
+    width: 20%;
+    height: auto;
   }
   .home-about-me {
-    height: 614px;
-    padding: 1em;
-    margin-top: 0em;
+    height: 582px;
+    margin-top: 1em;
+    padding-top: 0em;
+    padding-left: 1em;
+    margin-bottom: 1em;
+    padding-right: 1em;
+    padding-bottom: 0em;
   }
   .home-text02 {
     margin-top: 1em;
@@ -936,10 +995,14 @@
     padding-right: 1em;
   }
   .home-social-bar {
+    height: 187px;
+    padding: 0em;
     align-self: flex-start;
+    margin-top: 1em;
     align-items: center;
     padding-top: 1em;
     padding-left: 1em;
+    margin-bottom: 1em;
     padding-right: 1em;
     flex-direction: column;
     padding-bottom: 1em;
